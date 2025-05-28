@@ -196,7 +196,7 @@ export default function ContentSnifferHomepage() {
               Join hundreds of thousands of users who browse the web safely with Content Sniffer.
             </p>
             <button className="bg-green-500 hover:bg-green-600 text-black font-bold px-10 py-4 rounded-full transition-all duration-300 hover:scale-105 text-lg">
-              Install Now - It's Free
+              Install Now - It&apos;s Free
             </button>
           </div>
         </div>
