@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${nunito.className} antialiased`}
       >
+        <Analytics />
         {children}
       </body>
     </html>
