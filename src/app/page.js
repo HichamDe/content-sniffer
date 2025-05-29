@@ -72,8 +72,8 @@ export default function ContentSnifferHomepage() {
           <div className="hidden md:flex items-center space-x-8 text-sm">
             <a href="#features" className="hover:text-green-400 transition-colors">Features</a>
             <a href="#how-it-works" className="hover:text-green-400 transition-colors">How it Works</a>
-            <Link download href='/extension.crx' className="cursor-pointer bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
-              Install Extension
+            <Link download href='/file.svg' className="cursor-pointer bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
+              Drag Extension
             </Link>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function ContentSnifferHomepage() {
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
               <Link download href='/extension.crx' className="cursor-pointer group bg-green-500 hover:bg-green-600 text-black font-bold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-2">
                 <Download className="w-5 h-5" />
-                <span>Add to Chrome - Free</span>
+                <span>Drag to Chrome - Free</span>
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
 
