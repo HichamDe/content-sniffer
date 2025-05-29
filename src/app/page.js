@@ -72,7 +72,7 @@ export default function ContentSnifferHomepage() {
           <div className="hidden md:flex items-center space-x-8 text-sm">
             <a href="#features" className="hover:text-green-400 transition-colors">Features</a>
             <a href="#how-it-works" className="hover:text-green-400 transition-colors">How it Works</a>
-            <Link download href='/file.svg' className="cursor-pointer bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
+            <Link download href='/extension.crx' className="cursor-pointer bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
               Drag Extension
             </Link>
           </div>
