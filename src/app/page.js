@@ -98,7 +98,7 @@ export default function ContentSnifferHomepage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <Link href="https://chromewebstore.google.com/detail/heiknjnflkplgemcdiblekkcnhnemkni?utm_source=item-share-cb">
+              <Link  href='https://chromewebstore.google.com/detail/heiknjnflkplgemcdiblekkcnhnemkni?utm_source=item-share-cb' className="cursor-pointer group bg-green-500 hover:bg-green-600 text-black font-bold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-2">
                 <Download className="w-5 h-5" />
                 <span>Download it - Free</span>
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
