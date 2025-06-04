@@ -67,13 +67,13 @@ export default function ContentSnifferHomepage() {
       <nav className="relative z-10 px-6 py-4 backdrop-blur-md bg-black/20 border-b border-gray-800/50">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <Link href="/" className="cursor-pointer flex items-center space-x-3">
-            <Image src={logo} width={148} height={52} alt='Content Sniffer Logo'/>
+            <Image src={logo} width={148} height={52} alt='Content Sniffer Logo' />
           </Link>
           <div className="hidden md:flex items-center space-x-8 text-sm">
             <a href="#features" className="hover:text-green-400 transition-colors">Features</a>
             <a href="#how-it-works" className="hover:text-green-400 transition-colors">How it Works</a>
-            <Link download href='/extension.crx' className="cursor-pointer bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
-              Drag Extension
+            <Link href='https://chromewebstore.google.com/detail/heiknjnflkplgemcdiblekkcnhnemkni?utm_source=item-share-cb' className="cursor-pointer bg-green-500 hover:bg-green-600 text-black font-semibold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105">
+              Install Extension
             </Link>
           </div>
         </div>
@@ -98,9 +98,9 @@ export default function ContentSnifferHomepage() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <Link download href='/extension.crx' className="cursor-pointer group bg-green-500 hover:bg-green-600 text-black font-bold px-8 py-4 rounded-full transition-all duration-300 hover:scale-105 flex items-center space-x-2">
+              <Link href="https://chromewebstore.google.com/detail/heiknjnflkplgemcdiblekkcnhnemkni?utm_source=item-share-cb">
                 <Download className="w-5 h-5" />
-                <span>Drag to Chrome - Free</span>
+                <span>Download it - Free</span>
                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
 
@@ -195,9 +195,11 @@ export default function ContentSnifferHomepage() {
             <p className="text-xl text-gray-400 mb-8">
               Join hundreds of thousands of users who browse the web safely with Content Sniffer.
             </p>
-            <button className="bg-green-500 hover:bg-green-600 text-black font-bold px-10 py-4 rounded-full transition-all duration-300 hover:scale-105 text-lg">
-              Install Now - It&apos;s Free
-            </button>
+            <Link href="https://chromewebstore.google.com/detail/heiknjnflkplgemcdiblekkcnhnemkni?utm_source=item-share-cb">
+              <button className="bg-green-500 hover:bg-green-600 text-black font-bold px-10 py-4 rounded-full transition-all duration-300 hover:scale-105 text-lg">
+                Install Now - It&apos;s Free
+              </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -207,7 +209,7 @@ export default function ContentSnifferHomepage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <Link href="/" className="cursor-pointer flex items-center space-x-3">
-              <Image src={logo} width={148} height={52} alt='Content Sniffer Logo'/>
+              <Image src={logo} width={148} height={52} alt='Content Sniffer Logo' />
             </Link>
             <div className="text-center text-gray-500">
               <p>&copy; 2025 Content Sniffer. All rights reserved.</p>
