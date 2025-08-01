@@ -212,7 +212,7 @@ export default function ContentSnifferHomepage() {
               <Image src={logo} width={148} height={52} alt='Content Sniffer Logo' />
             </Link>
             <div className="text-center text-gray-500">
-              <p>&copy; 2025 Content Sniffer. All rights reserved. Powered By <Link href="www.qilze.com">Qilze technologies</Link></p>
+              <p>&copy; 2025 Content Sniffer Powered By <Link href="https://www.qilze.com">Qilze technologies</Link></p>
             </div>
           </div>
 
